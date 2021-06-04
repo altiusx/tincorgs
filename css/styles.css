@@ -1,0 +1,162 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/****************** .classes ********************/
+/*section colors*/
+.colored {
+  background-color: #ff4c68;
+  color: #f8f8ff;
+}
+
+.white {
+  background-color: #f8f8ff;
+}
+
+/*Navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/*Download buttons*/
+.dwld-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+.big-heading {
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 1.5;
+}
+
+.phone-img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* features */
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/*testimonial carousel and press logos*/
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.press-img {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.testimonial-text, .price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*pricing*/
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.ocd-lol {
+  margin-bottom: 57px;
+}
+
+/*footer*/
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+.social-icon:hover {
+  color: #ef8172;
+}
+
+/******************* #ids *********************/
+/* parent child */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Note: Z-index requires position. Refer to flowchart in notes */
+/* This example actually does not require z-index bc features comes after img */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#footer {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/********************** responsiveness **********************/
+/*1028px in course*/
+@media (max-width: 1135px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}

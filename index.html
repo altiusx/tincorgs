@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TinCorgs</title>
+  <!-- The order of the code matters! Move custom styles.css below bootstrap -->
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/f604964c0d.js" crossorigin="anonymous"></script>
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section class="colored" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tincorgs</a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Title -->
+      <!-- col-12 == 12 units = one row, lg = large desktop, md = medium tablet, sm = small mobile -->
+      <!-- col-lg-3 means that on a desktop, each column will take up 3 units (hence total 4 columns)-->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">A corgi fanatic? We have the right product for you.</h1>
+          <button type="button" class="btn btn-dark btn-lg dwld-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg dwld-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 position-relative">
+          <img class="phone-img" src="images/iphone6.png" alt="iphone-corgi">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-check-circle fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even an angery chihuahua could do it.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-bullseye fa-4x"></i>
+          <h3>Elite Clientele.</h3>
+          <p>We have all the corgis, the bestest bois and freshest breads.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="feature-icon fas fa-heart fa-4x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Get fluffy butts, mlems and bleps, lil beans or your money back.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinCorgs. Would totally recommend this service! Woof! </h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="testimonial-1-profile">
+          <em>Heather Banks, Brisbane, Australia</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I used to be happily attached to a dachshund, but she used TinCorgs and ran away for a corgi! SERIOUSLY, A CORGI?? How good even are they!?</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="testimonial-2-profile">
+          <em>Sad ol' Goldie, Moscow, Russia</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored" id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white" id="pricing">
+
+    <h2 class="price-text">A Plan for your Every Needs</h2>
+    <p>Simple and affordable price plans for your deepest and darkest corgi obsessions.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pino</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p class="ocd-lol">Unlimited App Usage</p>
+            <button class="btn btn-outline-dark btn-lg col-12" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Maple</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p class="ocd-lol">Unlimited App Usage</p>
+            <button class="btn btn-lg btn-dark col-12" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <!--if smaller than desktop, the last card will stretch the entire length of 12u-->
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gen</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <p>Jump The Queue</p>
+            <button class="btn btn-lg btn-dark col-12" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored" id="cta">
+
+    <div class="container-fluid">
+      <h3 class="big-heading">Fulfil your love for flufferbutts today.</h3>
+      <button type="button" class="dwld-button btn btn-lg btn-dark"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="dwld-button btn btn-lg btn-light"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white" id="footer">
+    <div class="container-fluid">
+      <a href="https://www.linkedin.com/in/christopher-qing-yi-choong-739709203/"> <i class="social-icon fab fa-linkedin fa-3x"></i></a>
+      <a href="https://www.instagram.com/altair_xcvi/"><i class="social-icon fab fa-instagram fa-3x"></i> </a>
+      <a href="https://github.com/altiusx"><i class="social-icon fab fa-github fa-3x"></i></a>
+      <a href="mailto:qchoong002@e.ntu.edu.sg"><i class="social-icon fas fa-envelope fa-3x"></i></a>
+      <p>Note: This is just a fun project and the contents on this page are purely comedic and fictional.</p>
+      <p>© Copyright 2021 Christopher Choong Qing Yi</p>
+    </div>
+  </footer>
+</body>
+
+</html>
